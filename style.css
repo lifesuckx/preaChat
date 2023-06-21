@@ -22,3 +22,12 @@ body{
 body h1{
     align-items: center;
 }
+
+@media screen and (min-width:  12.5em) {
+    
+    body{
+        font-size: 10px;
+        height: 800px; /* Apenas para fins de demonstração */
+    }
+    
+}
