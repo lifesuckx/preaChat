@@ -1,64 +1,83 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-}
 body{
     font-family: "Poppins",Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f1f3f6;
-    display: flex;
-    justify-content: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 500px; /* Apenas para fins de demonstração */
+    /* background-color: #f1f3f6; */
+    background:linear-gradient(to right red,blue) ;
+
 }
 
-
-body h1{
-    align-items: center;
-}
-
-@media screen and (min-width:  12.5em) {
-    
-    body{
-        font-size: 10px;
-        height: 800px; /* Apenas para fins de demonstração */
-    }
-    
-
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
-
-*{
+html,body{
     margin: 0;
     padding: 0;
+    height: 100%; /* Apenas para fins de demonstração */
 }
-body{
-    font-family: "Poppins",Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+
+.register-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputs{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputs input {
+    margin-top: 10px;
+    background-color: #e2e8f1;
+    border: 50px;
+    padding: 10px;
+    border-radius: 14.5px;
+    transition: all 0.2s;
+}
+
+.register-container img{
+    top: 80px;
+    width: 100%;
+    max-width: 210px;
+    height: auto;
+    /* margin-top: 110px; */
+    display: block;
+    position: absolute;
+    vertical-align: middle;
+}
+.register-container input:focus{
     background-color: #f1f3f6;
-    display: flex;
-    justify-content: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 500px; /* Apenas para fins de demonstração */
+    box-shadow: 0px 6px 191px 1px rgba(0, 0, 0, 0.8);
 }
 
+.register-container h2{
+    color: #3a5376;
+    margin:0 ;
+    font-size: 28.9px;
+}
+@media screen and (min-width: 375px) and (max-width: 812px) {
 
-body h1{
-    align-items: center;
+  body{
+    background-color: #f1f3f6;
+  }
+  .register-container input{
+    padding: 20px;
+    width: 270px;
+  }
+
+  .register-container input:focus{
+    background-color: #f1f3f6;
+    box-shadow: 0px 6px 25px 0px rgba(0, 0, 0, 0.08);
 }
 
-@media screen and (min-width:  12.5em) {
-    
-    body{
-        font-size: 10px;
-        height: 800px; /* Apenas para fins de demonstração */
+.register-container input::placeholder{
+  /* transform: translate(-320%,-170%); */
+    color: #8c929d;
     }
 }
