@@ -150,13 +150,13 @@ html, body {
         color: #3a5376;
         margin: 0;
         font-size: 29px;
-        top: 5em;
+        top: 6em;
         left: -60px;
     }
 
     .login-container p {
         margin: 0;
-        top: 8.8em;
+        top: 10.8em;
         left: -44px;
         color: var(--cor-letra);
     }
