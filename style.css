@@ -59,15 +59,15 @@ html, body {
         font-family: "Poppins";
         color: #3a5376;
         margin: 0;
-        font-size: 29px;
+        font-size: 28px;
         top: 6em;
-        left: -60px;
+        left: -45px;
     }
 
     .register-container p {
         margin: 0;
         top: 10.8em;
-        left: -35px;
+        left: -15px;
         color: var(--cor-letra);
 
     }
@@ -146,15 +146,16 @@ html, body {
         font-family: "Poppins";
         color: #3a5376;
         margin: 0;
-        font-size: 29px;
+        font-size: 28px;
         top: 6em;
-        left: -60px;
+        left: -35px;
+
     }
 
     .login-container p {
         margin: 0;
         top: 10.8em;
-        left: -44px;
+        left: -15px;
         color: var(--cor-letra);
     }
 
@@ -170,6 +171,11 @@ html, body {
     #makinLogin-txt{
         position: relative;
         left: -12px;
+    }
+
+   .login-container #makinLogin-txt{
+        position: relative;
+        left: 13.9px;
     }
 
 }
