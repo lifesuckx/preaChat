@@ -22,7 +22,6 @@ html, body {
 }
 
 @media screen and (min-width: 309px) and (max-width: 844px) {
-
     body {
         background-color: var(--cor-primaria);
     }
@@ -129,9 +128,9 @@ html, body {
     .login-container img {
         display: block;
         position: absolute;
-        max-width: 210px;
+        max-width:160px;
         width: 100%;
-        top: 120px;
+        top: 60px;
         height: auto;
     }
 
@@ -151,13 +150,13 @@ html, body {
         color: #3a5376;
         margin: 0;
         font-size: 29px;
-        top: 7em;
+        top: 5em;
         left: -60px;
     }
 
     .login-container p {
         margin: 0;
-        top: 19.8em;
+        top: 8.8em;
         left: -44px;
         color: var(--cor-letra);
     }
