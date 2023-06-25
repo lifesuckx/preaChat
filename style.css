@@ -21,7 +21,7 @@ html, body {
     height: 100%;
 }
 
-@media screen and (min-width: 390px) and (max-width: 844px) {
+@media screen and (min-width: 309px) and (max-width: 844px) {
 
     body {
         background-color: var(--cor-primaria);
