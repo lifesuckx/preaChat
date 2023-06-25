@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap');
 
-
 :root {
     --cor-primaria: #f1f3f6;
     --cor-secundaria: #e2e8f1;
     --cor-tercearia: #3a5376;
     --cor-letra: #8c929d;
 }
-
 
 body {
     background: linear-gradient(to right red, blue);
@@ -21,88 +19,88 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    /* Apenas para fins de demonstração */
 }
 
-.register-container {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+@media screen and (min-width: 390px) and (max-width: 844px) {
 
-.register-container img {
-    display: block;
-    position: absolute;
-    max-width: 210px;
-    width: 100%;
-    top: 80px;
-    height: auto;
-}
-
-.register-container input:focus {
-    background-color: var(--cor-primaria);
-    box-shadow: 0px 6px 191px 1px rgba(0, 0, 0, 0.8);
-}
-
-.register-container h2, p {
-    position: relative;
-    text-align: right;
-}
-
-.register-container h2 {
-    font-weight: 600;
-    font-family: "Poppins";
-    color: #3a5376;
-    margin: 0;
-    font-size: 29px;
-    top: 10em;
-    left: -60px;
-}
-
-.register-container p {
-    margin: 0;
-    top: 17.8em;
-    left: -35px;
-    color: var(--cor-letra);
-
-}
-
-.inputs {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.login-btn {
-    border-radius: 14.5px;
-    padding: 20px;
-    width: 300px;
-    border: none;
-    margin-top: 70px;
-    background: var(--cor-tercearia);
-    color: var(--cor-primaria);
-    font-size: 23px;
-    letter-spacing: 2px;
-}
-
-.inputs input {
-    margin-top: 25px;
-    background-color: var(--cor-secundaria);
-    padding: 28px;
-    width: 270px;
-    border: none;
-    border-radius: 14.5px;
-    transition: all 0.2s;
-
-}
-
-@media screen and (min-width: 375px) and (max-width: 812px) {
     body {
         background-color: var(--cor-primaria);
+    }
+
+    .register-container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .register-container img {
+        display: block;
+        position: absolute;
+        max-width: 210px;
+        width: 100%;
+        top: 80px;
+        height: auto;
+    }
+
+    .register-container input:focus {
+        background-color: var(--cor-primaria);
+        box-shadow: 0px 6px 191px 1px rgba(0, 0, 0, 0.8);
+    }
+
+    .register-container h2, p {
+        position: relative;
+        text-align: right;
+    }
+
+    .register-container h2 {
+        font-weight: 600;
+        font-family: "Poppins";
+        color: #3a5376;
+        margin: 0;
+        font-size: 29px;
+        top: 10em;
+        left: -60px;
+    }
+
+    .register-container p {
+        margin: 0;
+        top: 17.8em;
+        left: -35px;
+        color: var(--cor-letra);
+
+    }
+
+    .inputs {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .inputs input {
+        margin-top: 18px;
+        background-color: var(--cor-secundaria);
+        padding: 28px;
+        width: 270px;
+        border: none;
+        border-radius: 14.5px;
+        transition: all 0.2s;
+    }
+
+    .login-btn {
+        border-radius: 14.5px;
+        padding: 20px;
+        width: 300px;
+        border: none;
+        margin-top: 70px;
+        background: var(--cor-tercearia);
+        color: var(--cor-primaria);
+        font-size: 23px;
+        letter-spacing: 2px;
+        transition: all 0.2s;
     }
 
     .register-container input {
@@ -117,6 +115,70 @@ html, body {
 
     .register-container input::placeholder {
         color: #8c929d;
+    }
+
+    /* ------------- LOGIN PART ----------- */
+    .login-container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .login-container img {
+        display: block;
+        position: absolute;
+        max-width: 210px;
+        width: 100%;
+        top: 120px;
+        height: auto;
+    }
+
+    .login-container input:focus {
+        background-color: var(--cor-primaria);
+        box-shadow: 0px 6px 191px 1px rgba(0, 0, 0, 0.8);
+    }
+
+    .login-container h2, p {
+        position: relative;
+        text-align: right;
+    }
+
+    .login-container h2 {
+        font-weight: 600;
+        font-family: "Poppins";
+        color: #3a5376;
+        margin: 0;
+        font-size: 29px;
+        top: 11em;
+        left: -60px;
+    }
+
+    .login-container p {
+        margin: 0;
+        top: 19.8em;
+        left: -44px;
+        color: var(--cor-letra);
+    }
+
+    .login-container input {
+        padding: 28px;
+        width: 270px;
+    }
+
+    .login-container input:focus {
+        background-color: #f1f3f6;
+        box-shadow: 0px 6px 25px 0px rgba(0, 0, 0, 0.08);
+    }
+
+    .login-container input::placeholder {
+        color: #8c929d;
+    }
+
+    #makinLogin-txt{
+        position: relative;
+        left: -12px;
     }
 
 }
