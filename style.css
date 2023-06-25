@@ -37,7 +37,8 @@ html, body {
     .register-container img {
         display: block;
         position: absolute;
-        max-width: 210px;
+
+        max-width:160px;
         width: 100%;
         top: 80px;
         height: auto;
@@ -82,30 +83,26 @@ html, body {
     .inputs input {
         margin-top: 18px;
         background-color: var(--cor-secundaria);
-        padding: 28px;
-        width: 270px;
+        padding: 20px;
+        width: 230px;
         border: none;
-        border-radius: 14.5px;
+        border-radius: 11.5px;
         transition: all 0.2s;
     }
 
     .login-btn {
-        border-radius: 14.5px;
+        border-radius: 11.5px;
         padding: 20px;
-        width: 300px;
+        width: 260px;
         border: none;
         margin-top: 70px;
         background: var(--cor-tercearia);
         color: var(--cor-primaria);
-        font-size: 23px;
-        letter-spacing: 2px;
+        font-size: 20px;
+        letter-spacing: 1px;
         transition: all 0.2s;
     }
 
-    .register-container input {
-        padding: 28px;
-        width: 270px;
-    }
 
     .register-container input:focus {
         background-color: #f1f3f6;
@@ -159,11 +156,6 @@ html, body {
         top: 10.8em;
         left: -44px;
         color: var(--cor-letra);
-    }
-
-    .login-container input {
-        padding: 28px;
-        width: 270px;
     }
 
     .login-container input:focus {
