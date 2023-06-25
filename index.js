@@ -25,7 +25,6 @@ document.getElementById('signupForm').addEventListener('submit', function(event)
     document.getElementById('registroForm').reset();
 
 
-    window.open('msgPanel.html');
 
     document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('loginForm').addEventListener('submit', function(event) {
@@ -48,6 +47,8 @@ document.getElementById('signupForm').addEventListener('submit', function(event)
   
       // Limpar os campos do formulário
       document.getElementById('loginForm').reset();
+    window.open('msgPanel.html');
+
     });
   });
   
