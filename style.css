@@ -59,13 +59,13 @@ html, body {
         color: #3a5376;
         margin: 0;
         font-size: 29px;
-        top: 10em;
+        top: 6em;
         left: -60px;
     }
 
     .register-container p {
         margin: 0;
-        top: 17.8em;
+        top: 10.8em;
         left: -35px;
         color: var(--cor-letra);
 
